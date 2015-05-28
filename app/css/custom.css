@@ -1,0 +1,138 @@
+.nav {
+    background-color: #332f2c;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-size: 16px;
+}
+
+.nav li {
+    display: inline;
+
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.nav a {
+    font-weight: normal;
+    color: #ff4d00;
+}
+
+.nav .active {
+    color: #fd7f00;
+    background-color: #743513;
+    border: 5px solid #743513;
+}
+
+#project {
+    list-style-type: none;
+    font-weight: bold;
+    color: #fd7f00;
+}
+
+.wrapper {
+    background-color: #332f2c;
+    color: white;
+}
+
+.jumbotron {
+    background-image: url("../resources/sunset_adv_time.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 600px;
+
+    text-shadow: 0px 0px 10px black;
+    
+}
+
+.jumbotron .container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.jumbotron a {
+    color: #6699ff;
+    font-size: 24px;
+}
+
+.jumbotron h1{
+    color: white;
+    font-size: 72px;
+}
+
+.jumbotron p {
+    color: white;
+    font-size: 24px;
+}
+
+.introduction h3 {
+    padding-top: 60px;
+    font-size: 24px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.introduction #deep h3 {
+    padding-top: 160px;
+}
+
+.introduction a {
+    color: white;
+    text-decoration: none;
+}
+
+#adv {
+    background-image: url("../resources/adventerous.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+#inter {
+    background-image: url("../resources/interactive.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+#creat {
+    background-image: url("../resources/creative.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+#fun {
+    background-image: url("../resources/fun.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+}
+
+#deep {
+    background-image: url("../resources/deep.jpg");
+    background-repeat: no-repeat;
+    height: 400px;
+    text-align: center;
+}
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+
+.ex_intro .container {
+    font-size: 24px;
+}
+
+.ex_intro .container h1 {
+}
+
+.ex_adv {
+    height: 300px;
+}
